@@ -45,6 +45,10 @@ body {
     font-weight: bold;
     margin: 0.625rem;
 }
+
+#section-navigator{
+    text-decoration: none;
+}
 .stroke-double, .stroke-single{
     position: relative;
     background: transparent;
