@@ -46,7 +46,7 @@ body {
     margin: 0.625rem;
 }
 
-#section-navigator{
+#section-navigator a li{
     text-decoration: none;
 }
 .stroke-double, .stroke-single{
