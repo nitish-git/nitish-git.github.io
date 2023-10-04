@@ -344,3 +344,25 @@ section {
         width: 7vw;
     }
 }
+
+#footer {
+    display: flex;
+    background-color: #69F228;
+    justify-content: space-around;
+    color: #6A5151;
+    font-weight: bold;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: end;
+}
+
+.social-media-icons .icon{
+    cursor: pointer;
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+}
