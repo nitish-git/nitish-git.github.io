@@ -366,3 +366,42 @@ section {
     height: 5rem;
     object-fit: contain;
 }
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-card{
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.1rem 1rem;
+    border-radius: 0.5em;
+}
+
+.project-card h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.certi-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.image-section{
+}
+
+.issue-date{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.image-desc{
+
+}
