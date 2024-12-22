@@ -386,6 +386,24 @@ section {
     cursor: pointer;
 }
 
+.project-frames{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .project-frames{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.project-frames-project{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 .certi-container{
     display: flex;
     justify-content: center;
