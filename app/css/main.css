@@ -129,7 +129,8 @@ section {
 
 .container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -362,9 +363,19 @@ section {
 
 .social-media-icons .icon{
     cursor: pointer;
-    width: 5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 2rem;
     object-fit: contain;
+
+}
+
+.social-media-icon-container{
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 2px solid #6E00EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-container{
@@ -406,20 +417,15 @@ section {
 
 .certi-container{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 1.5rem;
     padding: 1rem;
 }
 
-.image-section{
-}
 
 .issue-date{
     text-align: center;
     text-decoration: underline;
     font-style: italic;
-}
-
-.image-desc{
-
 }
